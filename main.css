@@ -72,7 +72,7 @@
     margin-right: 4%;
   }
   * html #mc_embed_signup .size1of2 {
-    margin-right: 2%; /* Fix for IE6 double margins. */
+    margin-right: 2%; 
   }
   #mc_embed_signup .mc-field-group label {
     display: block;
