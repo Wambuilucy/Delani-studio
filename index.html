@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="./css/mailchimp.css" />
     <link href="https://fonts.googleapis.com/css?family=Ropa+Sans&display=swap"rel="stylesheet"/>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./jquery/jquery.js"></script>
-    <script src="./js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <!-- <script src="./jquery/jquery.js"></script>      -->
+    
   </head>
 
   <body>
@@ -89,54 +90,35 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid " id="whatwedo-section">
-      <h1>WHAT WE DO</h1>
-      <div class="row mt-5">
-        <div class="col-lg-4 text-center design ">
-          <img
-            src="./assets/services_icons/design_icon.png"
-            alt="Design Icon"
-            class="text-center"
-            id="design-img"
-          />
-          <h2 class="bold-h2">DESIGN</h2>
-          <p class="design-p">
-            Our design practice offers a full range of services including
-            branding strategy,interaction and visual design and user experience
-            testing. Throughout your project, our designers create and implement
-            visual designs and workflows solicit user feedback, and work with
-            you to make sure what gets built is what is needed.
-          </p>
-        </div>
-        <div class="col-lg-4 text-center development">
-          <img
-            id="development-img"
-            class="text-center"
-            src="./assets/services_icons/dev_icon.png"
-            alt="Design Icon"
-          />
-          <h2 class="bold-h2">DEVELOPMENT</h2>
-          <p class="development-p">
-            All engineers are fluent in the latest enterprise, mobile and web
-            development technologies. They collaborate with your team to write,
-            test, and improve code on a daily basis, using proven practices such
-            as test-driven development and pair programming.
-          </p>
-        </div>
-        <div class="col-lg-4 text-center management">
-          <img
-            src="./assets/services_icons/product_icon.png"
-            alt="Design Icon"
-            class="text-center "
-            id="management-img"
-          />
-          <h2 class="bold-h2">PRODUCT MANAGEMENT</h2>
-          <p class="management-p">
-            Planning and development is iterative. Because we are constantly
-            coding and testing, the products we build are always ready to go
-            live.This iterative process allows for changes as business
-            requirements eveolve.
-          </p>
+      <div class="container-fluid" id="our-work">
+        <h1>WHAT WE DO</h1>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="design">
+              <img src="./assets/services_icons/design_icon.png" alt="Design Icon">
+              <h4>Design</h4>
+              <p> Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience
+                testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with
+                you to make sure what gets built is what is needed.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="development">
+              <img src="./assets/services_icons/dev_icon.png" alt="Design Icon">
+              <h4>Development</h4>
+              <p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write,
+                test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="proj">
+              <img src="./assets/services_icons/product_icon.png" alt="">
+              <h4>PRODUCT MANAGEMENT</h4>
+              <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business
+                requirements eveolve.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container-fluid" id="portfolio-section">
@@ -288,7 +270,7 @@
     </div>
     <script
       type="text/javascript"
-      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+      src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-main.js"
     ></script>
     <script type="text/javascript">
       (function($) {
@@ -304,12 +286,14 @@
       var $mcj = jQuery.noConflict(true);
      </script>
     <script src="./bootstrap/js/bootstrap.js"></script>
-    <footer>
-      <div class="row">
-        <div class="col-md-12 text-center">
-      <p>
-        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by Kinyanjui Lucy Wambui</a>
-        </p>
+    <script src="./js/scripts.js"></script>
+    <footer><div class="row">
+      <div class="col-md-12 text-center">
+    <p>
+      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by Kinyanjui Lucy Wambui</a>
+      </p>
     </footer>
+  <script src="scripts/jquery-3.4.1.js"></script>
+  <script src="scripts/main.js"></script>
   </body>
 </html>
