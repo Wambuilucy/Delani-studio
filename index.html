@@ -194,27 +194,13 @@
                 target="_blank"
                 novalidate
               >
-                <div id="mc_embed_signup_scroll w-100">
-                  <div class="form-input col-lg-12 ">
-                    <div class="mc-field-group">
-                      <label for="mce-FNAME"> </label>
-                      <input type="text" value=""name="FNAME" placeholder="name ... "  class="white-border required"id="mce-FNAME"/>
-                    </div>
-                    <div class="mc-field-group">
-                      <label for="mce-EMAIL"> </label>
-                      <input type="email" value="" name="EMAIL" placeholder = "Email..." class="white-border required email my-email " id="mce-EMAIL"/>
-                    </div>
-                  </div>
-                  <div class="mc-field-group col-lg-12">
-                    <label for="mce-MMERGE2"></label>
-                    <input type="text" value=""name="MMERGE2" class="white-border mytextarea required my-text" id="mce-MMERGE2" size="180" style="margin-top: 10px;width: 800px;"/>
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div
-                      class="response"
-                      id="mce-error-response"
-                      style="display:none"
-                    ></div>
+                     <form action="/action_page.php">
+                      Name:<br>
+                    <input type="text" name="firstname">
+                    <br>
+                    E-mail:<br>
+                    <input type="text" name="lastname">
+                    <br><br>
                     <div
                       class="response"
                       id="mce-success-response"
@@ -272,7 +258,7 @@
       type="text/javascript"
       src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-main.js"
     ></script>
-    <script type="text/javascript">
+    <script type="text/javascript"> 
       (function($) {
         window.fnames = new Array();
         window.ftypes = new Array();
