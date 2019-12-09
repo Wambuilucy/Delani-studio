@@ -44,9 +44,7 @@ body {
     max-width: 100%;
     height: auto;
   }
-  .design-p,
-  .development-p,
-  .management-p {
+  #our-work p{
     display: none;
   }
   .bold-h2 {
